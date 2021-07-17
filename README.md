@@ -2,6 +2,18 @@
 
 Las muestras se encuentran en este link <https://mateosss.github.io/muvi3d>
 
+# Como Usar
+
+Este repositorio usa git lfs para guardar los archivos binarios (glbs y jpgs
+principalmente). Para poder actualizar las páginas hay que [instalar git
+lfs][git-lfs]. Si clonaste el repo antes de instalar git lfs, hace `git lfs
+install` en la carpeta del repo.
+
+Para actualizar la lista simplemente agregar los archivos glbs al directorio
+`glbs/` y correr `./make.py` que va a regenerar tanto `index.html` como las
+`pages/` necesarias.
+
+[git-lfs]: https://git-lfs.github.com/
 # A Mejorar
 
 ## Realidad Aumentada
